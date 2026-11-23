@@ -1,0 +1,33 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local databases and generated reports
+*.sqlite
+*.sqlite3
+*.db
+reports/*.pdf
+
+# Secrets and local environment configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Temporary and editor files
+*.tmp
+*.temp
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

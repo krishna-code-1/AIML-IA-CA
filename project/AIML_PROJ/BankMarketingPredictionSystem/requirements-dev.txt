@@ -1,0 +1,2 @@
+# Optional test runner; pytest was not installed in the inspected environment.
+pytest  # Version not verified; install separately if pytest-based tests are needed.
